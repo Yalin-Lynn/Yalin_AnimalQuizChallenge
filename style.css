@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #eaf4e8;
+    color: #344e41;
+}
+
+/* Main content card */
+main {
+    background: white;
+    max-width: 480px;
+    margin: 70px auto;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #276749;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    color: #344e41;
+    margin-bottom: 25px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5ce;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #48bb78;
+    border-color: #48bb78;
+}
+
+/* Buttons */
+button,
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #2f855a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover,
+.btn:hover {
+    background: #276749;
+}
+
+/* Links */
+a {
+    color: #276749;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+/* Quiz choices */
+.quiz-option {
+    display: block;
+    padding: 14px;
+    margin: 10px 0;
+    background: #f0f7f0;
+    border: 1px solid #cbd5ce;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.quiz-option:hover {
+    background: #d9efdb;
+}
+
+/* Scores */
+.score {
+    font-size: 32px;
+    font-weight: bold;
+    color: #276749;
+    text-align: center;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #e1f0e1;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    main {
+        margin: 30px auto;
+        padding: 22px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
