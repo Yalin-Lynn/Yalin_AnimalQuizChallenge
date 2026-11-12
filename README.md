@@ -1,4 +1,3 @@
-
 # Animal Quiz Challenge
 
 ## Project Overview
@@ -74,6 +73,7 @@ Both team members worked together on integration, debugging, and final testing.
 - `results.php` - Final score page
 - `leaderboard.php` - Top 10 leaderboard
 - `style.css` - Website styling
+- `team.html` - Team introduction and member responsibilities
 - `README.md` - Project documentation
 
 ## Testing
